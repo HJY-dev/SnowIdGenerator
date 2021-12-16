@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Yitter.IdGenerator/1.0.12": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Yitter.IdGenerator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Yitter.IdGenerator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Yitter.IdGenerator/1.0.12": {
+      "sha512": "hDtqOe+7tuEQHUhTwySxupbotkHJTHKo7qV2s7bnpATsakqYU6p7S2q6FLg7xhGzsA625Prk3EVpMGw/2oXoig==",
+      "type": "package",
+      "path": "yitter.idgenerator/1.0.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Yitter.IdGenerator.dll",
+        "yitter.idgenerator.1.0.12.nupkg.sha512",
+        "yitter.idgenerator.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Yitter.IdGenerator >= 1.0.12"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\app\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Github项目\\SnowIdGenerator\\Test\\Test.csproj",
+      "projectName": "Test",
+      "projectPath": "D:\\Github项目\\SnowIdGenerator\\Test\\Test.csproj",
+      "packagesPath": "C:\\Users\\app\\.nuget\\packages\\",
+      "outputPath": "D:\\Github项目\\SnowIdGenerator\\Test\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\app\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nex.qechacha.com/repository/nuget-hosted/": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Yitter.IdGenerator": {
+            "target": "Package",
+            "version": "[1.0.12, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

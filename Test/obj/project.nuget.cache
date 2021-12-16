@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mj7reVKXxAzNyxRk0wmvTDPmUh9SE8GeXFlmH6rXcX6Zb4V/CCfo+o8AEs1EBhnYlg8djjYFF1FXjKB5IC6LdA==",
+  "success": true,
+  "projectFilePath": "D:\\Github项目\\SnowIdGenerator\\Test\\Test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\app\\.nuget\\packages\\yitter.idgenerator\\1.0.12\\yitter.idgenerator.1.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
